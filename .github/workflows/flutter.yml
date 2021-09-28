@@ -21,7 +21,7 @@ jobs:
     - run: flutter packages pub get
     - run: flutter packages pub run build_runner build
     - run: flutter pub get
-    - run: flutter test
+#    - run: flutter test
     - run: flutter build apk
 
   build-ios:
@@ -35,5 +35,5 @@ jobs:
     - run: flutter packages pub get
     - run: flutter packages pub run build_runner build
     - run: flutter pub get
-    - run: flutter test
+#    - run: flutter test
     - run: flutter build ios --release --no-codesign
